@@ -1,3 +1,6 @@
+// caelestia-nightlight - Elvin Coronado Reyes (Asced1807)
+// Licencia BSD 3-Clause
+
 pragma Singleton
 
 import QtQuick

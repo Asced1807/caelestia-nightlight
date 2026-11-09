@@ -52,6 +52,10 @@ A night light plugin for Caelestia. It warms up the screen after sunset and goes
 
 It's built on the plugin system from caelestia-dots/shell#1703, which isn't merged yet, so it may need changes later. Install it by cloning into `~/.config/caelestia/plugins/nightlight`, then add `nightLight` to `bar.entries` and/or `utilities.quickToggles`.
 
+## Autor
+
+Hecho por Elvin Coronado Reyes ([@Asced1807](https://github.com/Asced1807)).
+
 ## Licencia
 
 BSD 3-Clause

@@ -1,3 +1,6 @@
+// caelestia-nightlight - Elvin Coronado Reyes (Asced1807)
+// Licencia BSD 3-Clause
+
 import Caelestia.Plugins
 
 // Settings for the night light plugin. The plugin system instantiates this and
