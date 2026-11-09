@@ -1,0 +1,32 @@
+{
+    "name": "nightlight",
+    "author": "Asced1807",
+    "version": "0.1.0",
+    "description": "Night light for the bar. Gets warmer after sunset and you can change it anytime. Uses hyprsunset.",
+    "homepage": "https://github.com/Asced1807/caelestia-nightlight",
+    "requires": ">=2.5.0",
+    "settings": "settings.qml",
+    "entryPoints": [
+        {
+            "type": "bar-entry",
+            "source": "NightLightEntry.qml",
+            "properties": {
+                "name": "nightLight"
+            }
+        },
+        {
+            "type": "bar-popout",
+            "source": "NightLightPopout.qml",
+            "properties": {
+                "entry": "nightLight"
+            }
+        },
+        {
+            "type": "quick-toggle",
+            "source": "NightLightToggle.qml",
+            "properties": {
+                "name": "nightLight"
+            }
+        }
+    ]
+}
